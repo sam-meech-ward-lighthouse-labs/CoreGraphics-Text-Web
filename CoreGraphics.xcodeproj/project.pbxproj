@@ -13,6 +13,8 @@
 		2211F7951DD634450095BC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2211F7931DD634450095BC5C /* Main.storyboard */; };
 		2211F7971DD634450095BC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2211F7961DD634450095BC5C /* Assets.xcassets */; };
 		2211F79A1DD634450095BC5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2211F7981DD634450095BC5C /* LaunchScreen.storyboard */; };
+		2211F7A31DD634600095BC5C /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2211F7A21DD634600095BC5C /* DrawingView.m */; };
+		2211F7A61DD6485B0095BC5C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2211F7A51DD6485B0095BC5C /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2211F7961DD634450095BC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2211F7991DD634450095BC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2211F79B1DD634450095BC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2211F7A11DD634600095BC5C /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		2211F7A21DD634600095BC5C /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		2211F7A41DD6485B0095BC5C /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		2211F7A51DD6485B0095BC5C /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				2211F78E1DD634450095BC5C /* AppDelegate.m */,
 				2211F7901DD634450095BC5C /* ViewController.h */,
 				2211F7911DD634450095BC5C /* ViewController.m */,
+				2211F7A11DD634600095BC5C /* DrawingView.h */,
+				2211F7A21DD634600095BC5C /* DrawingView.m */,
+				2211F7A41DD6485B0095BC5C /* WebViewController.h */,
+				2211F7A51DD6485B0095BC5C /* WebViewController.m */,
 				2211F7931DD634450095BC5C /* Main.storyboard */,
 				2211F7961DD634450095BC5C /* Assets.xcassets */,
 				2211F7981DD634450095BC5C /* LaunchScreen.storyboard */,
@@ -152,8 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2211F7921DD634450095BC5C /* ViewController.m in Sources */,
+				2211F7A61DD6485B0095BC5C /* WebViewController.m in Sources */,
 				2211F78F1DD634450095BC5C /* AppDelegate.m in Sources */,
 				2211F78C1DD634450095BC5C /* main.m in Sources */,
+				2211F7A31DD634600095BC5C /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
